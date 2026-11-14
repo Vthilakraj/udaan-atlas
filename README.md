@@ -6,6 +6,14 @@ A colorful, working full-stack prototype for **Smart India Hackathon SIH26135**:
 
 **Repository:** https://github.com/Vthilakraj/udaan-atlas
 
+## Complete project documentation
+
+The 18-page report covers the problem, requirements, user journeys, architecture, data model, database, business rules, API, installation, testing, deployment, operations, and future work.
+
+- [Download the PDF report](docs/Udaan_Atlas_Complete_Documentation.pdf)
+- [Download the editable Word document](docs/Udaan_Atlas_Complete_Documentation.docx)
+- [Read the documentation online](docs/Udaan_Atlas_Complete_Documentation.md)
+
 ![Udaan Atlas colorful workspace](docs/images/overview-desktop.png)
 
 [Phone layout](docs/images/overview-mobile.png)
