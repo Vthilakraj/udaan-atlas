@@ -1,0 +1,45 @@
+{
+  "name": "udaan-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "dev:full": "concurrently -k \"tsx watch server/index.ts\" \"vite --host 0.0.0.0 --mode api\"",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts",
+    "test": "vitest run",
+    "test:ui": "playwright test",
+    "build:api": "tsc --noEmit && vite build --mode api"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.468.0",
+    "recharts": "^3.4.1",
+    "zod": "^4.1.12",
+    "express": "^5.1.0",
+    "tsx": "^4.20.6",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/node": "^24.10.0",
+    "@types/express": "^5.0.5",
+    "@types/supertest": "^6.0.3",
+    "@vitejs/plugin-react": "^5.1.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.9",
+    "jsdom": "^27.2.0",
+    "supertest": "^7.1.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@playwright/test": "^1.56.1",
+    "concurrently": "^9.2.1"
+  }
+}
